@@ -46,6 +46,6 @@ class FileConcatenator:
             print(f"[bold red]Error while catting directory: {e}[/bold red]")
 
 # Usage example:
-file_concatenator = FileConcatenator()
-file_concatenator.concatenate_files_from_json_and_save('workspace/file_path.json', 'concatenated_output.txt')
+# file_concatenator = FileConcatenator()
+# file_concatenator.concatenate_files_from_json_and_save('workspace/file_path.json', 'concatenated_output.txt')
 

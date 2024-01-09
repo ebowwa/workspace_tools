@@ -53,6 +53,6 @@ class PyCacheKiller:
         else:
             self.console.print(f"[bold red]Failed to erase cache at {pyc_file_path}[/bold red]")
 
-if __name__ == "__main__":
-    killer = PyCacheKiller('directory', "path+file")
-    killer.find_and_delete()
+# if __name__ == "__main__":
+    # killer = PyCacheKiller('directory', "path+file")
+    # killer.find_and_delete()
